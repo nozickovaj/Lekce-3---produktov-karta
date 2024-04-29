@@ -1,0 +1,230 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --red-color: #e74c3c;
+  --green-color: #07bc0c;
+  --grey-dark-color: #757575;
+  --grey-light-color: #e0e0e0;
+  --white-color: #fff;
+  --black-color: #121212;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+  width: 59%;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  position: relative;
+  left: 280px;
+}
+
+.product-basic-description-container {
+  position: relative;
+  left: 450px;
+  margin-top: 50px;
+}
+
+.product-name {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.product-weight {
+  color: var(--grey-dark-color);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 3;
+}
+
+.product-label-durability,
+.product-label-inspection {
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 500;
+  width: fit-content;
+}
+.product-label-durability {
+  color: var(--green-color);
+  border: 1px solid #07bc0c;
+  padding: 6px;
+}
+
+.product-label-inspection {
+  color: var(--white-color);
+  background-color: var(--red-color);
+  padding: 6px;
+  margin: 4px 0px;
+}
+
+.product-price {
+  font-weight: bold;
+  line-height: 3;
+}
+
+.product-price-per-kilogram {
+  color: var(--grey-dark-color);
+  font-weight: 600;
+}
+
+header {
+  position: relative;
+}
+
+.product-image {
+  width: 50%;
+  padding: 70px;
+  position: absolute;
+  bottom: 50px;
+}
+
+.product-buttons-container {
+  font-weight: 600;
+  font-size: 13px;
+  position: relative;
+  left: 450px;
+}
+
+.button-basket,
+.button-list {
+  display: inline-block;
+  padding: 10px 40px;
+  margin: 20px 5px 15px 0px;
+  border-radius: 8px;
+}
+
+.button-basket {
+  color: var(--white-color);
+  background-color: #07bc0c;
+}
+
+.button-list {
+  border: 1px solid #e0e0e0;
+}
+
+.product-aditional-info-container {
+  color: var(--grey-dark-color);
+  font-weight: bold;
+  font-size: 12px;
+  position: relative;
+  left: 450px;
+  line-height: 1.5;
+  width: fit-content;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 20px;
+}
+
+.product-aditional-info-container-light-text {
+  font-weight: 100;
+}
+
+.product-classification-container {
+  color: var(--grey-dark-color);
+  position: relative;
+  left: 450px;
+  line-height: 1.5;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.product-classification-food {
+  color: var(--green-color);
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.product-classification-location {
+  color: var(--black-color);
+  font-weight: bold;
+}
+
+nav ul li {
+  list-style-type: none;
+  float: left;
+  display: block;
+  padding: 0px 15px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.navigation {
+  display: inline-block;
+  height: 70px;
+  margin: 0px 80px;
+}
+
+h2 {
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 5;
+}
+
+.product-detailed-description-container {
+  padding: 0px 100px;
+}
+
+.image-butter-serving {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+p {
+  line-height: 1.5;
+  padding-bottom: 20px;
+}
+
+.conjunction {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+ul li {
+  list-style-type: none;
+  line-height: 1.8;
+}
+
+.product-durability-highlighting {
+  font-weight: bold;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.product-details {
+  font-size: 11px;
+}
+
+footer {
+  background-color: var(--grey-light-color);
+  padding: 0px 100px;
+  font-size: 13px;
+}
+
+.nutritional-value-table {
+  position: relative;
+  bottom: 265px;
+  left: 400px;
+  line-height: 2;
+}
+
+caption {
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 5;
+  text-align: left;
+}
+
+.product-allergens {
+  position: relative;
+  top: 220px;
+}
